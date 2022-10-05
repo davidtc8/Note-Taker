@@ -1,6 +1,6 @@
 # Note Taker App
-# ![license image](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 Website where you'll be able to save your daily tasks and save them for upcomming days!
+# ![license image](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 # Table of Contents
 - [Go to installation section](#-installation)
 - [Go to usage guide section](#-usage-guide)
