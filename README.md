@@ -25,3 +25,6 @@ MIT
 # Questions
 - Here's my GitHub Profile in case you want to reach out!: https://github.com/davidtc8
 - Here's my email in case you want to write me: davidtorresc8@gmail.com
+
+# Video Section
+https://user-images.githubusercontent.com/71146674/194914929-2abb0b28-f706-485a-acba-e3294bfe99dd.mp4
