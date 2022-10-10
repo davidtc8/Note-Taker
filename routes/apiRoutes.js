@@ -8,22 +8,23 @@ let uniqid = require('uniqid')
 api.get('/notes', (req, res) => {
     console.log(`${req.method} request received`)
     // Get all saved notes from the database
-    res.sendFile(path.join(__dirname), "../db/db.json")
+    // let res.sendFile(path.join(__dirname), "./db/db.json")
+    let database = JSON.parse(fs.readFileSync('./db/db.json', 'utf-8'))
+    res.json(database)
 });
 
 // Adds user note to database and puts it in the webpage
 api.post('/notes', (req, res) => {
     console.log(`${req.method} request received`)
     let database = JSON.parse(fs.readFileSync('./db/db.json', 'utf-8'))
+    console.log(database)
     let userNote = {
         title: req.body.title,
         text: req.body.text,
         id: uniqid(),
     }
-
     database.push(userNote);
     fs.writeFileSync('./db/db.json', JSON.stringify(database));
-    console.log(database)
     res.json(database);
 });
 
