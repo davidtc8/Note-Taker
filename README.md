@@ -2,7 +2,8 @@
 Website where you'll be able to save your daily tasks and save them for upcomming days!
 # ![license image](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
-# Link to ![application](https://note-taking-app-js.herokuapp.com/)
+# Link to application
+[Deployed Website in Heroku](https://note-taking-app-js.herokuapp.com/)
 
 # Table of Contents
 - [Go to installation section](#-installation)
